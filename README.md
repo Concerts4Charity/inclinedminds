@@ -1,6 +1,6 @@
 <h1>Inclined Minds</h1>
 
-<p>Inclined Minds source code that is built with Sculpin, SASS and Bootstrap. This page is a combination of Sculpin's original directions with some of my personal notes and reminders.</p>
+<p>Inclined Minds website source code that is built with Sculpin, SASS and Bootstrap. This page is a combination of Sculpin's original directions with personal notes and reminders.</p>
 
 <p>Sculpin is a static site generator written in PHP. It converts Markdown files, Twig templates or standard HTML into a static HTML site that can be easily deployed.</p>
 
@@ -129,4 +129,4 @@ rsync -avze 'ssh -p 999' output_prod/ user@yoursculpinsite.com:public_html
 
 <p>In fact, <code>publish.sh</code> is provided to get you started. If you plan on deploying to an
 Amazon S3 bucket, you can use <code>s3-publish.sh</code> alongside the <code>s3cmd</code> utility (must be
-installed separately).</p>
+installed separately).</p> 
