@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title><![CDATA[Sculpin Blog Skeleton]]></title>
+    <title><![CDATA[Inclined Minds | Arts and Community]]></title>
     <link href="/atom.xml" rel="self"/>
     <link href="/"/>
-    <updated>2014-12-01T18:03:32+01:00</updated>
+    <updated>2014-12-01T18:06:48+01:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
