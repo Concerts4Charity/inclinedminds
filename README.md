@@ -1,6 +1,6 @@
-<h1>Kaleem S. Clarkson</h1>
+<h1>Inclined Minds</h1>
 
-<p>Welcome to my personal portfolio source code that is built with Sculpin, SASS and Bootstrap. This page is a combination of Sculpin's original directions with some of my personal notes and reminders.</p>
+<p>Inclined Minds source code that is built with Sculpin, SASS and Bootstrap. This page is a combination of Sculpin's original directions with some of my personal notes and reminders.</p>
 
 <p>Sculpin is a static site generator written in PHP. It converts Markdown files, Twig templates or standard HTML into a static HTML site that can be easily deployed.</p>
 
@@ -11,7 +11,7 @@
 <p>sculpin generate --server --watch
 **generates and watches in local dev</p>
 
-<p>sculpin generate --env=prod --url=kclarkson/kclarkson.github.io
+<p>sculpin generate --env=prod --url=http://concerts4charity.github.io/inclinedminds
 **generates the production sculpin output along with url's</p>
 
 <h1>Sculpin Blog Skeleton</h1>
