@@ -11,6 +11,8 @@
 <p>sculpin generate --server --watch
 **generates and watches in local dev</p>
 
+<p>sculpin generate --env=prod</p>
+
 <p>sculpin generate --env=prod --url=kclarkson/kclarkson.github.io
 **generates the production sculpin output along with url's</p>
 
