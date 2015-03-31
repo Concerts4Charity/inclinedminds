@@ -16,7 +16,7 @@ pre {
 
 .im-date {
     font-size: 1.1em;
-    padding: 1.5em 0em;
+    padding: 0em 0em;
     text-align: center;
 }
 
@@ -35,6 +35,13 @@ body {
 
 .navbar-default {
     background-color: #FFF;
+}
+
+.logo {
+    margin: 0px auto;
+    max-width: 500px;
+    position: relative;
+    display: block;
 }
 
 .nav>li>a:hover,  
