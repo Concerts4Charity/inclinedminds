@@ -1,5 +1,9 @@
 .span12 {
-    max-width: 2500px;
+    max-width: 1920px;
+}
+
+.footer-wrapper {
+    background-image: url(/images/asheville.jpg);
 }
 
 a,
