@@ -1,10 +1,5 @@
-.span12 {
-    max-width: 1920px;
-}
+/*Links and header Tags */
 
-.footer-wrapper {
-    background-image: url(/images/asheville.jpg);
-}
 
 a,
 a:hover,
@@ -12,6 +7,59 @@ a:active,
 a:visited {
     color: #FFF;
 }
+
+body {
+    font-family: 'Hind', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    background-color: #000;
+    color: #FFF;
+}
+
+
+h4 small
+{
+    display: block;
+    font-size: 60%;
+    color: #888;
+}
+
+
+
+/* Page Elements alphabetically */
+
+.mainContent, footer.container {
+    max-width: 900px;
+}
+
+
+
+.footer-copywrite {
+    position: absolute;
+    top: 65em;
+    display: inline-block;
+    width: 250px;
+}
+
+
+footer.container {
+    margin-top: 30px;
+    padding: 30px 0;
+    border-top: 1px dashed #aaa;
+}
+
+.footer-wrapper {
+    background-image: url(/images/asheville.jpg);
+    height: 350px;
+    background-repeat: repeat-x;
+}
+
+.im-date {
+    font-size: 1.1em;
+    padding: 0em 0em;
+    text-align: center;
+}
+
 
 .navbar-inverse .brand {
     color: #FFF;
@@ -22,24 +70,6 @@ pre {
     color: inherit;
 }
 
-.im-date {
-    font-size: 1.1em;
-    padding: 0em 0em;
-    text-align: center;
-}
-
-.well {
-    background-color: inherit;
-    color: inherit;
-}
-
-body {
-    font-family: 'Hind', sans-serif;
-    font-size: 22px;
-    line-height: 32px;
-    background-color: #000;
-    color: #FFF;
-}
 
 .navbar-default {
     background-color: #FFF;
@@ -57,35 +87,10 @@ body {
     background-color: transparent; 
 }
 
-h4 small
-{
-    display: block;
-    font-size: 60%;
-    color: #888;
-}
 
-.mainContent, footer.container {
-    max-width: 900px;
+.span12 {
+    max-width: 1920px;
 }
-
-footer.container {
-    margin-top: 30px;
-    padding: 30px 0;
-    border-top: 1px dashed #aaa;
-}
-
-@media (max-width: 767px) {
-    .sidebar {
-        padding-top: 30px;
-    }
-}
-@media (min-width: 980px) {
-    body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-        padding-bottom: 40px;
-    }
-}
-
 
 .videoWrapper {
     position: relative;
@@ -100,3 +105,24 @@ footer.container {
     width: 100%;
     height: 100%;
 }
+
+.well {
+    background-color: inherit;
+    color: inherit;
+}
+
+/*Styles by Media Queries*/
+
+
+@media (max-width: 767px) {
+    .sidebar {
+        padding-top: 30px;
+    }
+}
+@media (min-width: 980px) {
+    body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        padding-bottom: 40px;
+    }
+}
+
